@@ -9,9 +9,10 @@ Product.belongsToMany(Category, {
 
 // Categories have many Products
 through: {
-  model: Trip,
+  model: Product,
   unique: false
 },
+//Figure out what to put here
 as: 'planned_trips'
 });
 
@@ -21,6 +22,7 @@ Product.belongsToMany(Tag, {
     model: ProductTag,
     unique: false
   },
+  //Figure out what to put here
   as: 'planned_trips'
 });
 
@@ -30,6 +32,7 @@ Tag.belongsToMany(Product, {
     model: ProductTag,
     unique: false
   },
+  //Figure out what to put here
   as: 'planned_trips'
 });
 
