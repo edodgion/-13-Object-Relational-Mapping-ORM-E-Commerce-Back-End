@@ -38,7 +38,7 @@ Product.init(
     references: {
       model: 'category',
       key: 'id',
-      unique: false
+      unique: false,
     }
   }
 },
@@ -47,7 +47,7 @@ Product.init(
     timestamps: false,
     freezeTableName: true,
     underscored: true,
-    modelName: 'product',
+    modelName: 'product_id',
   }
 );
 
