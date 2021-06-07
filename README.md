@@ -33,7 +33,7 @@ THEN I am able to successfully create, update, and delete data in my database
 
 ### Walkthrough Video
 https://youtu.be/wl-Ju1bZ7rY
-![My Video Walkthrough](./assets/orm.gif)
+![](./assets/orm.gif)
 
 
 ### Credit
