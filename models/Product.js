@@ -33,7 +33,7 @@ Product.init(
     //* Validates that the value is numeric.
   },
 
-  category_i: {
+  category_id: {
     type: DataTypes.INTEGER,
     references: {
       model: 'category',
@@ -47,7 +47,7 @@ Product.init(
     timestamps: false,
     freezeTableName: true,
     underscored: true,
-    modelName: 'product_id',
+    modelName: 'product',
   }
 );
 
