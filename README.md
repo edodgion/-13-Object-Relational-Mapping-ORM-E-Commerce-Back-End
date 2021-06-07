@@ -32,7 +32,10 @@ THEN I am able to successfully create, update, and delete data in my database
 ```
 
 ### Walkthrough Video
+#### [My Video Walkthrough](https://youtu.be/wl-Ju1bZ7rY)
 https://youtu.be/wl-Ju1bZ7rY
+
+![](./assets/orm.png)
 ![](./assets/orm.gif)
 
 
